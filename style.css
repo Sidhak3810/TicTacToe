@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    font-family: Poppins;
+}
 *, *::after, *::before {
     box-sizing: border-box;
   }
@@ -165,6 +169,7 @@
     color: #BFC0C0;
     text-decoration: none;
     letter-spacing: 1px;
+    font-size: 30px;
   }
   #button-3 {
     position: relative;
@@ -183,7 +188,7 @@
     opacity: 0;
     line-height: 40px;
     border-radius: 50%;
-    background: #88e0e0;
+    background: #00ffff;
     position: absolute;
     transition: all .5s ease-Out;
     top: 20px;
@@ -199,12 +204,12 @@
   }
   
   #button-3:hover a {
-    color: #002fff;
+    color: #000000;
   }
 .title {
     width: 150px;
     position: relative;
-    left: 42%;
+    left: 41%;
     color: #BFC0C0;
 }
 #restartButton {
