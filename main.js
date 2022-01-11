@@ -96,4 +96,5 @@ function getQuote() {
         return data[0]['q'] + ' -' + data[0]['a']
     })
 }
-console.log(getQuote);
+var quote = getQuote()
+console.log(quote);
